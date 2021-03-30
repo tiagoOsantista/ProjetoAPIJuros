@@ -21,7 +21,7 @@ namespace JurosRestDDDDomain.Services
         /// <returns></returns>
         public decimal CalculaJuros(Juro juro)
         {
-            return  (decimal)Math.Pow((double)(juro.ValorInicial * (1 + juro.ValorJuros)), (double)juro.Tempo);
+            return decimal.Round(juro.ValorInicial * (decimal)Math.Pow(1.0 + (double)juro.ValorJuros, juro.Tempo), 2);
         }
 
 

@@ -27,7 +27,5 @@ namespace JurosRestDDDAPI.Controllers
         {
             return Ok(_applicationServiceJuro.Calculajuros(juro));
         }
-
-    
     }
 }
