@@ -22,6 +22,9 @@
         /// </summary>
         public bool Ativo { get; set; }
 
-
+        public bool CanBeUsed(Taxa taxa)
+        {
+            return taxa.Ativo;
+        }
     }
 }

@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JurosRestDDDDomain.Services
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JurosRestDDDInfra", "JurosRestDDDInfra\JurosRestDDDInfra.csproj", "{7F9CB296-C156-4F8D-A63C-2C50A31C91D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxasRestDDDAPI", "TaxasRestDDDAPI\TaxasRestDDDAPI.csproj", "{C73DB11D-381B-49B5-9FD7-E356C258BA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxasRestDDDAPI", "TaxasRestDDDAPI\TaxasRestDDDAPI.csproj", "{C73DB11D-381B-49B5-9FD7-E356C258BA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoJurosDDD.UnitTests", "ProjetoJurosDDD.UnitTests\ProjetoJurosDDD.UnitTests.csproj", "{CD4815D3-A99B-4E42-8EFF-CAEAB01AE05F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{C73DB11D-381B-49B5-9FD7-E356C258BA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73DB11D-381B-49B5-9FD7-E356C258BA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73DB11D-381B-49B5-9FD7-E356C258BA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4815D3-A99B-4E42-8EFF-CAEAB01AE05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4815D3-A99B-4E42-8EFF-CAEAB01AE05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4815D3-A99B-4E42-8EFF-CAEAB01AE05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4815D3-A99B-4E42-8EFF-CAEAB01AE05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
